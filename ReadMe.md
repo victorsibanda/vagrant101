@@ -25,15 +25,15 @@ vagrant ssh - start using vagrant from terminal
 
 ## Create a ubuntu 18.04 server
 using vagrant open the vagrant file and input
-
+```ruby
 Vagrant.configure("2") do |config|
 
   config.vm.box = "ubuntu/bionic64"
 
 end
-
+```
 To configure an internal IP add:
-
+```ruby
 Vagrant.configure("2") do |config|
 
   config.vm.box = "ubuntu/bionic64"
@@ -41,7 +41,7 @@ Vagrant.configure("2") do |config|
 
 
 end
-
+```
 ## Installing package manager.
 
 - sudo apt-get update
@@ -50,3 +50,6 @@ end
 ### to check if nginx is installed use
 
 ps aux | grep nginx
+
+
+https://octodex.github.com/images/yaktocat.png
