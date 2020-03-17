@@ -17,7 +17,7 @@ Is the SW that does the heavy lifting of creating said machines.
 ## Find out basic Vagrant commands
 
 `vagrant init` - Creates the vagrant file.
-`vagrant up` - Downloads the OS and starts it via VirtualBox
+`vagrant up` - Downloads the VM and starts it via VirtualBox
 `vagrant halt` - Stops the vagrant file
 `vagrant destroy` - Destroys the vagrant file
 `vagrant ssh` - start using vagrant from terminal
