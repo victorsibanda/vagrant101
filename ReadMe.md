@@ -16,11 +16,12 @@ Is the SW that does the heavy lifting of creating said machines.
 
 ## Find out basic Vagrant commands
 
-vagrant init - Creates the vagrant file.
-vagrant up - Downloads the OS and starts it via VirtualBox
-vagrant halt - Stops the vagrant file
-vagrant destroy - Destroys the vagrant file
-vagrant ssh - start using vagrant from terminal
+`vagrant init` - Creates the vagrant file.
+`vagrant up` - Downloads the OS and starts it via VirtualBox
+`vagrant halt` - Stops the vagrant file
+`vagrant destroy` - Destroys the vagrant file
+`vagrant ssh` - start using vagrant from terminal
+`vagrant reload` - reloads vagrant whilst keeping the files
 
 
 ## Create a ubuntu 18.04 server
@@ -44,12 +45,9 @@ end
 ```
 ## Installing package manager.
 
-- sudo apt-get update
-- sudo apt-get install nginx
+- `sudo apt-get update`
+- `sudo apt-get install nginx`
 
 ### to check if nginx is installed use
-
-ps aux | grep nginx
-
-
-https://octodex.github.com/images/yaktocat.png
+`sudo systemctl start nginx`
+`ps aux | grep nginx`
